@@ -1,6 +1,12 @@
+.fixed-header{
+    height: 100px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
 nav{
     height: 70px;
-    border-bottom: 1px solid seashell;
     background-color: black;
     color: White;
     display: flex;
@@ -19,26 +25,34 @@ li{
 
 a{
     color: seashell;
+    text-decoration: none;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
-    color: seashell;
+    color: black;
     text-align: center;
     background-color: whitesmoke;
     opacity: 0.7;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0e/Hong_Kong_Island_Skyline_2009.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .section1{
     width: 1200px;
-    height: 700px;
+    height: 400px;
     background-color: bisque;
-    margin: 0 auto;
+    margin: 150px auto;
+    
 }
 
-.button{
-    display: flex;
+.section1 h1{
+    opacity: 1;
+    box-sizing: content-box;
+    height: 50px;
 }
 
 .button #left{
@@ -47,7 +61,7 @@ body{
     height: 30px;
     border: 1px solid black;
     border-radius: 10px;
-    float: right;
+    float: left;
 }
 
 .button #right{
@@ -56,9 +70,7 @@ body{
     height: 30px;
     border: 1px solid black;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    float: right;
 }
 
 .section2{
@@ -70,5 +82,5 @@ body{
 
 .section2 h1{
     font-size: 10rem;
-
+    opacity: 1;
 }
