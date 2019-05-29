@@ -1,10 +1,10 @@
+/*THE HEADER*/
 .fixed-header{
     height: 100px;
     position: fixed;
     top: 0%;
     left: 0%;
 }
-
 nav{
     height: 70px;
     background-color: black;
@@ -16,17 +16,17 @@ nav{
     width: 100%;
     height:100%;
 }
-
 li{
     color: :seashell;
     display: inline-block; 
     padding: 0.75rem 1.25rem;
+    padding-right: 50px;
 }
-
 a{
     color: seashell;
     text-decoration: none;
 }
+/*HEADER COMPLETION*/
 
 body{
     font-family: 'Montserrat', sans-serif;
@@ -43,9 +43,11 @@ body{
 
 .section1{
     width: 1200px;
-    height: 400px;
+    height: 500px;
     background-color: bisque;
-    margin: 150px auto;
+    margin: 0px auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
     
 }
 
@@ -57,12 +59,12 @@ body{
 
 .section2{
     width: 1200px;
-    height: 700px;
+    height: 500px;
     margin: 0 auto;
     background-color: white;
 }
 
 .section2 h1{
-    font-size: 10rem;
+    font-size: 9rem;
     opacity: 1;
 }

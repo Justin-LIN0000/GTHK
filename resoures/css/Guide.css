@@ -1,0 +1,81 @@
+/*THE HEADER*/
+.fixed-header{
+    height: 100px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+nav{
+    height: 70px;
+    background-color: black;
+    color: White;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 999;
+    width: 100%;
+    height:100%;
+}
+li{
+    color: : seashell;
+    display: inline-block; 
+    padding: 0.75rem 1.25rem;
+    padding-right: 50px;
+}
+a{
+    color: seashell;
+    text-decoration: none;
+}
+/*HEADER COMPLETION*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    background-color: rgb(252, 239, 224);
+    opacity: 0.7;
+}
+
+
+.circle{
+    color: #fff;
+    width: 275px;
+    height: 275px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-right-radius: 275px;
+    border-top-left-radius: 275px;
+    border-bottom-right-radius: 275px;
+    border-bottom-left-radius: 275px;
+    background-color: #003366;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+.circle h3{
+    font-size:2rem;
+    padding: 95px 20px;
+    margin-top: 0px;
+}
+
+.line{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Regular_polygon_2_vertex_animation.svg/520px-Regular_polygon_2_vertex_animation.svg.png");
+    background-position: center center;
+    background-repeat: repeat-y;
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    top: 52%;
+    margin-left: -1px;
+    position: absolute;
+}
+
+.section2{
+    width: 1200px;
+    height: 700px;
+    margin: auto auto;
+    background-color: #fff;
+}
