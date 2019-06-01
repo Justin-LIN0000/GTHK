@@ -57,7 +57,7 @@ body{
 }
 
 .circle h3{
-    font-size:2rem;
+    font-size:2.3rem;
     padding: 95px 20px;
     margin-top: 0px;
 }
@@ -79,36 +79,43 @@ body{
 h2{
     color: #fff;
     background-color: #003366;
+    opacity: 0.95;
     font-size: 4.2vmin ;
+    /*font-size: 30px;*/
     padding: 5px 30px;
     position: absolute;
-    right: 67%;
+    right: 57%;
+    border-radius: 10px;
+
 }
 /*h6是右邊*/
 h6{
     color: #fff;
     background-color: #003366;
+    opacity: 0.95;
     font-size: 4.2vmin ;
     padding: 5px 30px;
     position: absolute;
-    left: 65%;
+    left: 57%;
+    border-radius: 10px;
 }
 
-/*h4是paragragh的右邊*/
+/*h4是paragragh的左邊*/
 h4 {
     border: 1px dotted black;
     position: absolute;
     color: black;
-    right: 55%;
-    margin-right:5%;
+    right: 57%;
+    
     padding: 0px 30px;
     font-size: 20px;
-    
+   
     height: 25%;
     width: 20%;
     font-family: "robotolight", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
     word-wrap:break-word;
     overflow: hidden;
+    margin: 0px auto;
 }
 /*p是dot*/
 p{
@@ -123,6 +130,7 @@ p{
     border-bottom-left-radius: 28px;
     background-color: #003366;
     display: block;
+    z-index: 2;
 }
 
 /*h5是paragragh的右邊*/
@@ -130,22 +138,23 @@ h5{
     border: 1px dotted black;
     position: absolute;
     color: black;
-    left: 60%;
-    margin-left:4%;
+    left: 57%;
+   
     padding: 0px 30px;
     font-size: 20px;
-    
+   
     height: 25%;
     width: 20%;
     font-family: "robotolight", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
     word-wrap:break-word;
     overflow: hidden;
+    margin: 0px auto;
 }
 
 /*第二區塊9月*/
 .section2{
     width: 1200px;
-    height: 700px;
+    height: 1020px;
     margin: auto auto;
     background-color: #fff;
 }
@@ -184,20 +193,52 @@ h5{
     font-family: "robotolight", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
 }
 
-#D1{margin-top: 140px;}
-#L1{top: 550px;}
-#PL1{margin-top: 200px;}
+#D1{margin-top: 160px;}/*dot:+190px*/
+#L1{top: 570px;}
+#PL1{margin-top: 225px;}
 
-#D2{margin-top: 340px;}
+#D2{margin-top: 350px;}
 #R1{top:700px;}
-#PR1{top:820px;}
+#PR1{margin-top:410px;}
 
-#D3{margin-top: 140px;}
-#L2{top: 550px;}
-#PL2{margin-top: 200px;}
+#D3{margin-top: 540px;}
+#L2{top: 940px;}
+#PL2{margin-top: 595px;}
 
-#D4{margin-top: 340px;}
-#R2{top:700px;}
-#PR2{top:820px;}
+#D4{margin-top: 730px;}
+#R2{top:1080px;}
+#PR2{margin-top:790px;}
 
 /*還要改（只要改）media querry，文字大小固定就好*/
+
+.line21{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Regular_polygon_2_vertex_animation.svg/520px-Regular_polygon_2_vertex_animation.svg.png");
+    background-position: center center;
+    background-repeat: repeat-y;
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    top: 152%;
+    margin-left: -1px;
+    position: absolute;
+}
+
+.line22{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Regular_polygon_2_vertex_animation.svg/520px-Regular_polygon_2_vertex_animation.svg.png");
+    background-position: center center;
+    background-repeat: repeat-y;
+    width: 2px;
+    height: 100%;
+    left: 50%;
+    top: 200%;
+    margin-left: -1px;
+    position: absolute;
+}
+
+#L3{top: 1590px;}
+
+#R3{top:1720px;}
+
+#L4{top: 1960px;}
+
+#R4{top:2100px;}
