@@ -1,41 +1,95 @@
 /*THE HEADER*/
 .fixed-header{
     height: 100px;
+    width: 100%;
     position: fixed;
     top: 0%;
     left: 0%;
     z-index: 999;
 }
 nav{
-    height: 70px;
-    background-color: black;
+    background-color: #143b55;
     color: White;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    z-index: 999;
     width: 100%;
     height:100%;
 }
 li{
-    color: : seashell;
     display: inline-block; 
-    padding: 0.75rem 1.25rem;
-    padding-right: 50px;
+    margin-top:3px;
+    margin-bottom:3px;
 }
+
 a{
     color: seashell;
     text-decoration: none;
+    padding: 0.75rem 1.25rem;
+    margin-right: 50px;
 }
 /*HEADER COMPLETION*/
+
+.container0{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #e9f7f7;
+}
+
+h2{
+    color: #fff;
+    background-color: #143b55;
+    opacity: 0.95;
+    font-size: 4.2vmin ;
+    padding: 5px 30px;
+    right: 57%;
+    border-radius: 10px;
+    margin-top: -10px;
+}
+
+h5{
+    /**text-align: right;
+    margin: 40px;
+    padding: 5px 30px;
+    font-size: 37px;
+    color: #003366;**/
+    
+    color: #143b55;
+    padding: 5px 30px;
+    text-align: right;
+    font-size: 28px;
+    margin-top: 40px;
+    font-family: "robotolight", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
+}
+
+h4{
+    position: absolute;
+    color: #fff;
+    padding: 5px 30px;
+    background-color: #143b55;
+    left: 50%;
+    font-size: 28px;
+    margin-top: 40px;
+    font-family: "robotolight", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
+}
+
+.container1{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #e9f7f7;
+}
+
+.container2{
+    margin: 0 auto;
+    width: 100%;
+}
 
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: black;
     text-align: center;
-    background-color: rgb(252, 239, 224);
-    opacity: 0.7;
+    background-color: #feffff; /*rgb(252, 239, 224);*/
 }
 
 .circle{
@@ -48,7 +102,7 @@ body{
     border-top-left-radius: 275px;
     border-bottom-right-radius: 275px;
     border-bottom-left-radius: 275px;
-    background-color: #003366;
+    background-color: #143b55;
     text-align: center;
     margin: 0px auto;
     margin-top: 150px;
@@ -61,305 +115,59 @@ body{
     padding: 95px 20px;
     margin-top: 0px;
     z-index: 1000;
+    z-index: 10;
+    color: seashell;
 }
 
-.line{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Regular_polygon_2_vertex_animation.svg/520px-Regular_polygon_2_vertex_animation.svg.png");
-    background-position: center center;
-    background-repeat: repeat-y;
-    width: 2px;
-    height: 100%;
-    left: 50%;
-    top: 52%;
-    margin-left: -1px;
-    position: absolute;
+.work{
+    float:left;
+    width:50%;
 }
 
-/*第二區塊第三第四......全定義*/
-/*h2是左邊*/
-h2{
-    color: #fff;
-    background-color: #003366;
-    opacity: 0.95;
-    font-size: 4.2vmin ;
-    /*font-size: 30px;*/
-    padding: 5px 30px;
-    position: absolute;
-    right: 57%;
-    border-radius: 10px;
-
-}
-/*h6是右邊*/
-h6{
-    color: #fff;
-    background-color: #003366;
-    opacity: 0.95;
-    font-size: 4.2vmin ;
-    padding: 5px 30px;
-    position: absolute;
-    left: 57%;
-    border-radius: 10px;
+.work-left{
+    float:left;
+    width:50%;
+    border-right: 2px#143b55 solid;
 }
 
-/*h4是paragragh的左邊*/
-h4 {
-    border: 1px dotted black;
-    position: absolute;
-    color: black;
-    right: 57%;
-    
-    padding: 0px 30px;
-    font-size: 20px;
+.clearfix{
+    clear: both;
+}
+
+.work-right{
+    float:right;
+    width:50%;
+    border-left: 2px #143b55 solid;
+}
+
+.inside-container{
+    margin: 0 auto;
+    width: 60%;
+}
+
+footer {
+    background-color: #143b55;
+    padding: 0 1rem;
+  }
+  
+.footcontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em 0;
+    color: white;
+  }
+
+  @media only screen and (max-width: 470px){
+    a{
+        font-size: 16px;
+        padding: 0.75rem 1rem;
+        margin-right: 2px;
+        margin-top:2px;
+    }
+
+    ul{
+        padding: 0% 0%;
+    }
    
-    height: 25%;
-    width: 20%;
-    font-family: "robotolight", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
-    word-wrap:break-word;
-    overflow: hidden;
-    margin: 0px auto;
-}
-/*p是dot*/
-p{
-    position: absolute;
-    right: 50%;
-    margin-right: -14px;
-    width: 28px;
-    height: 28px;
-    border-top-right-radius: 28px;
-    border-top-left-radius: 28px;
-    border-bottom-right-radius: 28px;
-    border-bottom-left-radius: 28px;
-    background-color: #003366;
-    display: block;
-    z-index: 2;
-}
-
-/*h5是paragragh的右邊*/
-h5{
-    border: 1px dotted black;
-    position: absolute;
-    color: black;
-    left: 57%;
-   
-    padding: 0px 30px;
-    font-size: 20px;
-   
-    height: 25%;
-    width: 20%;
-    font-family: "robotolight", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
-    word-wrap:break-word;
-    overflow: hidden;
-    margin: 0px auto;
-}
-
-/*第二區塊9月*/
-.section2, .section4{
-    width: 100%;
-    height: 1020px;
-    margin: auto auto;
-    background-color: #fff;
-}
-
-.Month h1{
-    white-space: nowrap;
-    position: absolute;
-    right: 50%;
-    padding: 0px 30px;
-    font-size: 48px;
-    color: #003366;
-}
-
-.Box{
-    position: absolute;
-    color: #fff;
-    padding: 5px 30px;
-    background-color: #003366;
-    left: 50%;
-    font-size: 28px;
-    margin-top: 40px;
-    font-family: "robotolight", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
-}
-
-.head-left{
-    position: absolute;
-    color: #fff;
-    right: 55%;
-    padding: 0px 30px;
-    background-color: #003366;
-    font-size: 38px;
-    margin-top: 125px;
-    margin-right: 10%;
-    height: 7%;
-    width: 10%;
-    font-family: "robotolight", Helvetica, Arial, "Microsoft JhengHei", sans-serif;
-}
-
-#D1{margin-top: 160px;}/*dot:+190px*/
-#L1{top: 570px;}
-#PL1{margin-top: 225px;}
-
-#D2{margin-top: 350px;}
-#R1{top:700px;}
-#PR1{margin-top:410px;}
-
-#D3{margin-top: 540px;}
-#L2{top: 940px;}
-#PL2{margin-top: 595px;}
-
-#D4{margin-top: 730px;}
-#R2{top:1080px;}
-#PR2{margin-top:790px;}
-
-/*還要改（只要改）media querry，文字大小固定就好*/
-
-.line21{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Regular_polygon_2_vertex_animation.svg/520px-Regular_polygon_2_vertex_animation.svg.png");
-    background-position: center center;
-    background-repeat: repeat-y;
-    width: 2px;
-    height: 100%;
-    left: 50%;
-    top: 152%;
-    margin-left: -1px;
-    position: absolute;
-}
-
-.line22{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Regular_polygon_2_vertex_animation.svg/520px-Regular_polygon_2_vertex_animation.svg.png");
-    background-position: center center;
-    background-repeat: repeat-y;
-    width: 2px;
-    height: 100%;
-    left: 50%;
-    top: 300%;
-    margin-left: -1px;
-    position: absolute;
-}
-
-.line23{
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Regular_polygon_2_vertex_animation.svg/520px-Regular_polygon_2_vertex_animation.svg.png");
-    background-position: center center;
-    background-repeat: repeat-y;
-    width: 2px;
-    height: 100%;
-    left: 50%;
-    top: 200%;
-    margin-left: -1px;
-    position: absolute;
-}
-
-.section3{
-    width: 100%;
-    height: 1020px;
-    margin: auto auto;
-}
-
-#L3{top: 1590px;}
-#R3{top:1720px;}
-#L4{top: 1960px;}
-#R4{top:2100px;}
-
-#L5{top: 2600px;}
-#R5{top:2740px;}
-#L6{top: 2970px;}
-#R6{top:3100px;}
-
-footer{
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    color: White;
-}
-
-
-@media only screen and (max-width: 500px){ 
-    
-    /*THE HEADER*/
-
-li{
-    color: : seashell;
-    display: inline-block; 
-    padding: 0.5rem 1rem;
-    padding-right: 10px;
-}
-
-    h2{
-        font-size: 4.3vmin;
-        padding: 5px 1.65rem;
-    }
-    /*h6是右邊*/
-    h6{
-        font-size: 4.2vmin;
-        padding: 5px 1.65rem;
-    }
-    /*p是dot*/
-p{
-    margin-right: -12px;
-    width: 23px;
-    height: 23px;
-    border-top-right-radius: 23px;
-    border-top-left-radius: 23px;
-    border-bottom-right-radius: 23px;
-    border-bottom-left-radius: 23px;
-}
-
-/*h4是paragragh的左邊*/
-h4 {
-    padding: 0px 30px;
-    font-size: 3.7vmin;
-    height: 33%;
-    width: 20%;
-}
-
-/*h5是paragragh的右邊*/
-h5{
-    padding: 0px 30px;
-    font-size: 3.7vmin;
-    height: 33%;
-    width: 20%;
-}
-
-    #D1{margin-top: 160px;}/*dot:+190px*/
-    #L1{top: 580px;}
-    #PL1{margin-top: 205px;}
-
-    #D2{margin-top: 350px;}
-    #R1{top:730px;}
-    #PR1{margin-top:390px;}
-
-    #D3{margin-top: 540px;}
-    #L2{top: 950px;}
-    #PL2{margin-top: 575px;}
-
-    #D4{margin-top: 730px;}
-    #R2{top:1110px;}
-    #PR2{margin-top:770px;}
-
-    .section3{
-        height: 1050px;
-    }
-    .section2, .section4{
-        height: 1050px;
-    }
-
-    #L3{top: 1630px;}
-    #R3{top:1780px;}
-    #L4{top: 2000px;}
-    #R4{top:2160px;}
-
-    #L5{top: 2670px;}
-    #R5{top:2830px;}
-    #L6{top: 3050px;}
-    #R6{top:3100px;}
-
-    .line31{
-        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Regular_polygon_2_vertex_animation.svg/520px-Regular_polygon_2_vertex_animation.svg.png");
-        background-position: center center;
-        background-repeat: repeat-y;
-        width: 2px;
-        height: 100%;
-        left: 50%;
-        top: 390%;
-        margin-left: -1px;
-        position: absolute;
-}
+  }

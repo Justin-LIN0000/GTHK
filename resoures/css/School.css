@@ -1,0 +1,38 @@
+/*THE HEADER*/
+.fixed-header{
+    height: 100px;
+    width:100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+}
+nav{
+    background-color: #143b55;
+    color: White;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height:100%;
+}
+li{
+    display: inline-block; 
+    margin-top:3px;
+    margin-bottom:3px;
+}
+nav a{
+    color: seashell;
+    text-decoration: none;
+    padding: 0.75rem 1.25rem;
+    margin-right: 50px;
+}
+/*HEADER COMPLETION*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    background-color: #feffff; /*rgb(252, 239, 224);*/
+}

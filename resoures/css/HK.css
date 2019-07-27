@@ -1,70 +1,156 @@
 /*THE HEADER*/
 .fixed-header{
-    height: 100px;
-    position: fixed;
-    top: 0%;
-    left: 0%;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  z-index: 999;
 }
 nav{
-    height: 70px;
-    background-color: black;
-    color: White;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    z-index: 999;
-    width: 100%;
-    height:100%;
+  background-color: #143b55;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height:100%;
 }
+
 li{
-    color: :seashell;
-    display: inline-block; 
-    padding: 0.75rem 1.25rem;
-    padding-right: 50px;
+  display: inline-block; 
+  margin-top:3px;
+  margin-bottom:3px;
 }
+
 a{
-    color: seashell;
-    text-decoration: none;
+  color: seashell;
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;
+  margin-right: 50px;
 }
 /*HEADER COMPLETION*/
+
+
 
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     color: black;
     text-align: center;
-    background-color: whitesmoke;
-    opacity: 0.7;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/0e/Hong_Kong_Island_Skyline_2009.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #feffff; /*rgb(252, 239, 224);*/
 }
-
-.section1{
-    width: 1200px;
-    height: 500px;
-    background-color: bisque;
-    margin: 0px auto;
-    margin-top: 150px;
-    margin-bottom: 20px;
-    
-}
-
-.section1 h1{
-    opacity: 1;
-    box-sizing: content-box;
-    height: 50px;
-}
-
-.section2{
-    width: 1200px;
-    height: 500px;
+  
+  .container {
+    max-width: 960px;
     margin: 0 auto;
-    background-color: white;
-}
+  }
 
-.section2 h1{
-    font-size: 9rem;
-    opacity: 1;
-}
+  .container-fixed {
+    max-width: 960px;
+    margin: 0 auto;
+    position: fixed;
+  }
+  
+  .main {
+    height: 30rem;
+    padding-top: 1rem;
+    /*background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png");*/
+    background-size: cover;
+    background-color: #6889aa;
+    /*border-bottom: 10px solid #a8bed4;*/
+    
+  }
+  
+  .main img {
+    width: 50rem;
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  
+  
+  .supporting,
+  .rating,
+  .gallery,
+  .location {
+    margin: 4em auto;
+  }
+  
+  .supporting {
+    display: flex;
+    align-items: flex-start;
+    padding: 0 1rem;
+  }
+  
+  .rating {
+    background-color: #003366; 
+    opacity: 0.7;
+    height: 20rem;
+    padding: 0 1rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rating h1 {
+    font-size: 2.5rem;
+  }
+  
+  .gallery img {
+    display: block;
+    width: 30%;
+    margin: 1.5%;
+    float: left;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  .location {
+    text-align: center;
+    margin-bottom: 7rem;
+  }
+  
+  .location img {
+   width: 100%;
+  }
+  
+  footer {
+    background-color: #143b55;
+    padding: 0 1rem;
+  }
+  
+  footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em 0;
+    color: white;
+  }
+  
+  @media only screen and (max-width: 960px){
+    .mai{
+       padding-top: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 700px){
+    .supporting img{
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 470px){
+    .rating h1{
+      font-size: 2rem;
+      width: 100%;
+      margin: 0;
+    }
+    .container-fixed{
+      font-size: 0.95rem;
+      padding: 0px 0px;
+      padding-right: 1px;
+    }
+  }
